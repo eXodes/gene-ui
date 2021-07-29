@@ -1,0 +1,99 @@
+{
+  "name": "gene-ui",
+  "version": "0.0.1",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    "./vue": {
+      "import": "./dist/vue/gene-ui.es.js",
+      "require": "./dist/vue/gene-ui.umd.js"
+    },
+    "./vue/style.css": "./dist/vue/style.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "storybook": "start-storybook --ci --no-manager-cache -p 6006",
+    "storybook:docs": "start-storybook --ci --docs --no-manager-cache -p 6006",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "lint:ci": "eslint --quiet .",
+    "build:library": "vue-tsc --noEmit && vite build",
+    "build:storybook": "build-storybook --docs --output-dir docs",
+    "type:ci": "vue-tsc --noEmit",
+    "test": "vite-jest",
+    "test:clear": "vite-jest --no-cache",
+    "test:watch": "vite-jest --no-cache --watchAll ",
+    "test:coverage": "vite-jest --no-cache --coverage",
+    "test:ci": "vite-jest --no-cache --ci",
+    "test:debug": "vite-jest --no-cache --detectOpenHandles",
+    "start": "vite preview --config vite.storybook.config.ts"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@storybook/addon-a11y": "^6.3.6",
+    "@storybook/addon-actions": "^6.3.6",
+    "@storybook/addon-essentials": "^6.3.6",
+    "@storybook/addon-links": "^6.3.6",
+    "@storybook/testing-vue3": "0.0.1",
+    "@storybook/vue3": "^6.3.6",
+    "@tailwindcss/aspect-ratio": "^0.2.1",
+    "@tailwindcss/forms": "^0.3.3",
+    "@tailwindcss/line-clamp": "^0.2.1",
+    "@tailwindcss/typography": "^0.4.1",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/user-event": "^13.1.9",
+    "@testing-library/vue": "^6.4.2",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.3.1",
+    "@typescript-eslint/eslint-plugin": "^4.28.0",
+    "@typescript-eslint/parser": "^4.28.0",
+    "@vitejs/plugin-vue": "^1.2.3",
+    "@vue/compiler-sfc": "^3.0.5",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "autoprefixer": "^10.2.6",
+    "babel-loader": "^8.2.2",
+    "chromatic": "^5.10.0-canary.0",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-jest-dom": "^3.9.0",
+    "eslint-plugin-mdx": "^1.13.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-tailwindcss": "^1.13.4",
+    "eslint-plugin-vue": "^7.12.1",
+    "jest": "^27.0.6",
+    "jest-environment-jsdom": "^27.0.6",
+    "postcss": "^8.3.5",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.3.1",
+    "storybook-builder-vite": "^0.0.12",
+    "tailwindcss": "^2.2.2",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.4",
+    "vite": "^2.3.8",
+    "vite-jest": "^0.0.3",
+    "vue-loader": "^16.2.0",
+    "vue-tsc": "^0.0.24"
+  },
+  "dependencies": {
+    "vue": "^3.1.2"
+  },
+  "keywords": [
+    "ui library",
+    "vue 3",
+    "svelte",
+    "tailwindcss"
+  ],
+  "author": {
+    "name": "Exo Des",
+    "email": "hello@exodes.net",
+    "url": "https://github.com/eXodes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eXodes/gene-ui"
+  },
+  "license": "MIT"
+}
