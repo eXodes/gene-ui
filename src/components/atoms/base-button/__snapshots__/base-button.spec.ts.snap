@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Base Button Should render attention button 1`] = `
+<button
+  class="g-rounded-md g-bg-attention-600 g-text-clear hover:g-bg-attention-500 focus:g-ring-attention-600 g-py-1.5 g-px-3 g-text-sm focus:g-ring-4 g-font-semibold g-tracking-wide g-transition-colors g-duration-100
+      focus:g-outline-none focus:g-ring-opacity-50"
+  data-testid="base-button"
+>
+  
+  Button Text
+  
+</button>
+`;
+
+exports[`Base Button Should render attention clear button 1`] = `
+<button
+  class="g-rounded-md g-bg-transparent g-text-attention-600 hover:g-bg-attention-100 focus:g-ring-attention-600 dark:hover:g-bg-attention-800 dark:hover:g-bg-opacity-25 g-py-1.5 g-px-3 g-text-sm focus:g-ring-4 g-font-semibold g-tracking-wide g-transition-colors g-duration-100
+      focus:g-outline-none focus:g-ring-opacity-50"
+  data-testid="base-button"
+>
+  
+  Button Text
+  
+</button>
+`;
+
+exports[`Base Button Should render base button 1`] = `
+<button
+  class="g-bg-gray-600 g-text-clear hover:g-bg-gray-500 focus:g-ring-gray-600 dark:g-bg-gray-100 dark:g-text-gray-700 dark:hover:g-bg-gray-300 dark:focus:g-ring-gray-600 g-py-1.5 g-px-3 g-text-sm focus:g-ring-4 g-font-semibold g-tracking-wide g-transition-colors g-duration-100
+      focus:g-outline-none focus:g-ring-opacity-50"
+  data-testid="base-button"
+>
+  
+  Button Text
+  
+</button>
+`;
+
+exports[`Base Button Should render button 1`] = `
+<button
+  class="g-rounded-md g-bg-gray-600 g-text-clear hover:g-bg-gray-500 focus:g-ring-gray-600 dark:g-bg-gray-100 dark:g-text-gray-700 dark:hover:g-bg-gray-300 dark:focus:g-ring-gray-600 g-py-1.5 g-px-3 g-text-sm focus:g-ring-4 g-font-semibold g-tracking-wide g-transition-colors g-duration-100
+      focus:g-outline-none focus:g-ring-opacity-50"
+  data-testid="base-button"
+>
+  
+  Button Text
+  
+</button>
+`;
+
+exports[`Base Button Should render button as block 1`] = `
+<button
+  class="g-rounded-md g-w-full g-bg-gray-600 g-text-clear hover:g-bg-gray-500 focus:g-ring-gray-600 dark:g-bg-gray-100 dark:g-text-gray-700 dark:hover:g-bg-gray-300 dark:focus:g-ring-gray-600 g-py-1.5 g-px-3 g-text-sm focus:g-ring-4 g-font-semibold g-tracking-wide g-transition-colors g-duration-100
+      focus:g-outline-none focus:g-ring-opacity-50"
+  data-testid="base-button"
+>
+  
+  Button Text
+  
+</button>
+`;
+
+exports[`Base Button Should render danger button 1`] = `
+<button
+  class="g-rounded-md g-bg-danger-600 g-text-clear hover:g-bg-danger-500 focus:g-ring-danger-600 g-py-1.5 g-px-3 g-text-sm focus:g-ring-4 g-font-semibold g-tracking-wide g-transition-colors g-duration-100
+      focus:g-outline-none focus:g-ring-opacity-50"
+  data-testid="base-button"
+>
+  
+  Button Text
+  
+</button>
+`;
+
+exports[`Base Button Should render danger clear button 1`] = `
+<button
+  class="g-rounded-md g-bg-transparent g-text-danger-600 hover:g-bg-danger-100 focus:g-ring-danger-600 dark:hover:g-bg-danger-800 dark:hover:g-bg-opacity-25 g-py-1.5 g-px-3 g-text-sm focus:g-ring-4 g-font-semibold g-tracking-wide g-transition-colors g-duration-100
+      focus:g-outline-none focus:g-ring-opacity-50"
+  data-testid="base-button"
+>
+  
+  Button Text
+  
+</button>
+`;
+
+exports[`Base Button Should render default button 1`] = `
+<button
+  class="g-rounded-md g-bg-gray-600 g-text-clear hover:g-bg-gray-500 focus:g-ring-gray-600 dark:g-bg-gray-100 dark:g-text-gray-700 dark:hover:g-bg-gray-300 dark:focus:g-ring-gray-600 g-py-1.5 g-px-3 g-text-sm focus:g-ring-4 g-font-semibold g-tracking-wide g-transition-colors g-duration-100
+      focus:g-outline-none focus:g-ring-opacity-50"
+  data-testid="base-button"
+>
+  
+  Button Text
+  
+</button>
+`;
+
+exports[`Base Button Should render default clear button 1`] = `
+<button
+  class="g-rounded-md g-bg-transparent g-text-gray-600 hover:g-bg-gray-100 focus:g-ring-gray-600 dark:g-text-gray-100 dark:hover:g-bg-gray-800 g-py-1.5 g-px-3 g-text-sm focus:g-ring-4 g-font-semibold g-tracking-wide g-transition-colors g-duration-100
+      focus:g-outline-none focus:g-ring-opacity-50"
+  data-testid="base-button"
+>
+  
+  Button Text
+  
+</button>
+`;
+
+exports[`Base Button Should render disabled button 1`] = `
+<button
+  class="g-rounded-md g-bg-gray-200 g-text-gray-400 g-cursor-not-allowed g-py-1.5 g-px-3 g-text-sm focus:g-ring-4 g-font-semibold g-tracking-wide g-transition-colors g-duration-100
+      focus:g-outline-none focus:g-ring-opacity-50"
+  data-testid="base-button"
+  disabled=""
+>
+  
+  Button Text
+  
+</button>
+`;
+
+exports[`Base Button Should render disabled clear button 1`] = `
+<button
+  class="g-rounded-md g-bg-transparent g-text-gray-400 g-cursor-not-allowed g-py-1.5 g-px-3 g-text-sm focus:g-ring-4 g-font-semibold g-tracking-wide g-transition-colors g-duration-100
+      focus:g-outline-none focus:g-ring-opacity-50"
+  data-testid="base-button"
+  disabled=""
+>
+  
+  Button Text
+  
+</button>
+`;
+
+exports[`Base Button Should render large button 1`] = `
+<button
+  class="g-rounded-md g-bg-gray-600 g-text-clear hover:g-bg-gray-500 focus:g-ring-gray-600 dark:g-bg-gray-100 dark:g-text-gray-700 dark:hover:g-bg-gray-300 dark:focus:g-ring-gray-600 g-py-2 g-px-4 g-text-md focus:g-ring-4 g-font-semibold g-tracking-wide g-transition-colors g-duration-100
+      focus:g-outline-none focus:g-ring-opacity-50"
+  data-testid="base-button"
+>
+  
+  Button Text
+  
+</button>
+`;
+
+exports[`Base Button Should render medium button 1`] = `
+<button
+  class="g-rounded-md g-bg-gray-600 g-text-clear hover:g-bg-gray-500 focus:g-ring-gray-600 dark:g-bg-gray-100 dark:g-text-gray-700 dark:hover:g-bg-gray-300 dark:focus:g-ring-gray-600 g-py-1.5 g-px-3 g-text-sm focus:g-ring-4 g-font-semibold g-tracking-wide g-transition-colors g-duration-100
+      focus:g-outline-none focus:g-ring-opacity-50"
+  data-testid="base-button"
+>
+  
+  Button Text
+  
+</button>
+`;
+
+exports[`Base Button Should render primary button 1`] = `
+<button
+  class="g-rounded-md g-bg-primary-600 g-text-clear hover:g-bg-primary-500 focus:g-ring-primary-600 g-py-1.5 g-px-3 g-text-sm focus:g-ring-4 g-font-semibold g-tracking-wide g-transition-colors g-duration-100
+      focus:g-outline-none focus:g-ring-opacity-50"
+  data-testid="base-button"
+>
+  
+  Button Text
+  
+</button>
+`;
+
+exports[`Base Button Should render primary clear button 1`] = `
+<button
+  class="g-rounded-md g-bg-transparent g-text-primary-600 hover:g-bg-primary-100 focus:g-ring-primary-600 dark:hover:g-bg-primary-800 dark:hover:g-bg-opacity-25 g-py-1.5 g-px-3 g-text-sm focus:g-ring-4 g-font-semibold g-tracking-wide g-transition-colors g-duration-100
+      focus:g-outline-none focus:g-ring-opacity-50"
+  data-testid="base-button"
+>
+  
+  Button Text
+  
+</button>
+`;
+
+exports[`Base Button Should render small button 1`] = `
+<button
+  class="g-rounded-md g-bg-gray-600 g-text-clear hover:g-bg-gray-500 focus:g-ring-gray-600 dark:g-bg-gray-100 dark:g-text-gray-700 dark:hover:g-bg-gray-300 dark:focus:g-ring-gray-600 g-py-1 g-px-2 g-text-xs focus:g-ring-2 g-font-semibold g-tracking-wide g-transition-colors g-duration-100
+      focus:g-outline-none focus:g-ring-opacity-50"
+  data-testid="base-button"
+>
+  
+  Button Text
+  
+</button>
+`;
+
+exports[`Base Button Should render success button 1`] = `
+<button
+  class="g-rounded-md g-bg-success-600 g-text-clear hover:g-bg-success-500 focus:g-ring-success-600 g-py-1.5 g-px-3 g-text-sm focus:g-ring-4 g-font-semibold g-tracking-wide g-transition-colors g-duration-100
+      focus:g-outline-none focus:g-ring-opacity-50"
+  data-testid="base-button"
+>
+  
+  Button Text
+  
+</button>
+`;
+
+exports[`Base Button Should render success clear button 1`] = `
+<button
+  class="g-rounded-md g-bg-transparent g-text-success-600 hover:g-bg-success-100 focus:g-ring-success-600 dark:hover:g-bg-success-800 dark:hover:g-bg-opacity-25 g-py-1.5 g-px-3 g-text-sm focus:g-ring-4 g-font-semibold g-tracking-wide g-transition-colors g-duration-100
+      focus:g-outline-none focus:g-ring-opacity-50"
+  data-testid="base-button"
+>
+  
+  Button Text
+  
+</button>
+`;
+
+exports[`Base Button Should render warning button 1`] = `
+<button
+  class="g-rounded-md g-bg-warning-600 g-text-clear hover:g-bg-warning-500 focus:g-ring-warning-600 g-py-1.5 g-px-3 g-text-sm focus:g-ring-4 g-font-semibold g-tracking-wide g-transition-colors g-duration-100
+      focus:g-outline-none focus:g-ring-opacity-50"
+  data-testid="base-button"
+>
+  
+  Button Text
+  
+</button>
+`;
+
+exports[`Base Button Should render warning clear button 1`] = `
+<button
+  class="g-rounded-md g-bg-transparent g-text-warning-600 hover:g-bg-warning-100 focus:g-ring-warning-600 dark:hover:g-bg-warning-800 dark:hover:g-bg-opacity-25 g-py-1.5 g-px-3 g-text-sm focus:g-ring-4 g-font-semibold g-tracking-wide g-transition-colors g-duration-100
+      focus:g-outline-none focus:g-ring-opacity-50"
+  data-testid="base-button"
+>
+  
+  Button Text
+  
+</button>
+`;
