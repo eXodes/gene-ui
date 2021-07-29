@@ -1,0 +1,56 @@
+import { Meta } from "@storybook/addon-docs";
+
+<Meta title='Introduction / Getting Started' />
+
+# Gene UI Library
+
+---
+
+This library is currently under development. Please check again later.
+
+### How to use the library
+
+1. Install the library via NPM.
+
+```bash
+npm install gene-ui
+```
+
+2. Add the library to your Vue app `main.js`.
+
+```javascript
+import gene from "gene-ui/vue";
+import "gene-ui/vue/style.css";
+
+Vue.use(gene);
+```
+
+> Alternatively, it is possible import the component directly in the Vue SFC file without installing the plugin via `Vue.use()`.
+
+```javascript
+import { gComponent } from "gene-ui/vue";
+
+export default {
+  components: { gComponent }
+};
+```
+
+### How to develop new components
+
+1. Duplicate the **template** folder in `src/components` to your respective components type and rename the folder and its contents.
+
+2. Create the new **component base** with the `props`, `events`, `slots` and markup if any.
+
+3. Create the **necessary stories** for the component. These stories will be used as test components.
+
+4. Create **test cases** required for the component and use the stories as the component binding for the test.
+
+5. Update the component `.vue` file to adhere to the test cases.
+
+### How to test new components
+
+1. Currently, the `vite-jest` has minor bug, for the test runner to work, please run `npm run test:clear` once. This would return an error during the first time it's running.
+
+2. After, you can run `npm run test:watch` to test your components.
+
+> Test currently cannot be run simultaneously with storybook due to some bug in vite-jest library
