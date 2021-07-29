@@ -21,7 +21,6 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "types": ["@testing-library/user-event"]
   },
   "typeAcquisition": {
     "enable": true
