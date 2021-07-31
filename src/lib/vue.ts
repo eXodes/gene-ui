@@ -8,7 +8,7 @@ const components = {
 
 const install = (Vue: App): void => {
   for (const component in components) {
-    // @ts-ignore Expect errors
+    // @ts-ignore Expect errors bracket notation
     Vue.component(components[component].name, components[component]);
   }
 };
