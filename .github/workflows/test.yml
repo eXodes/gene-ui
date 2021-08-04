@@ -1,4 +1,4 @@
-name: QA
+name: Test
 on:
   pull_request:
   push:
@@ -64,6 +64,12 @@ jobs:
 
       - name: Run test:ci
         run: npm run test:ci
+
+      - name: Upload to Codecov
+        uses: codecov/codecov-action@v2
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          directory: ./coverage
 
   build-storybook:
     needs:
