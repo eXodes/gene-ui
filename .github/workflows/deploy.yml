@@ -9,7 +9,7 @@ on:
 
 jobs:
   deploy-coverage:
-    name: Code Test
+    name: Codecov
     runs-on: ubuntu-latest
 
     steps:
