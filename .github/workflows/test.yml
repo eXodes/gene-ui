@@ -65,12 +65,6 @@ jobs:
       - name: Run test:ci
         run: npm run test:ci
 
-      - name: Upload to Codecov
-        uses: codecov/codecov-action@v2
-        with:
-          token: ${{ secrets.CODECOV_TOKEN }}
-          directory: ./coverage
-
   build-storybook:
     needs:
       - run-linter
