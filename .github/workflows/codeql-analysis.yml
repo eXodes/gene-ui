@@ -22,9 +22,7 @@ on:
       - master
       - beta
       - alpha
-  schedule:
-    - cron: '37 0 * * 6'
-
+      
 jobs:
   analyze:
     name: Analyze
