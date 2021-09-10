@@ -12,6 +12,7 @@
     "./vue/style.css": "./dist/vue/style.css"
   },
   "scripts": {
+    "prepare": "husky install",
     "dev": "vite",
     "storybook": "start-storybook --ci --no-manager-cache -p 6006",
     "storybook:docs": "start-storybook --ci --docs --no-manager-cache -p 6006",
@@ -32,6 +33,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.15.5",
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
     "@semantic-release/git": "^9.0.0",
     "@storybook/addon-a11y": "^6.3.8",
     "@storybook/addon-actions": "^6.3.8",
@@ -67,6 +70,7 @@
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-tailwindcss": "^1.13.4",
     "eslint-plugin-vue": "^7.15.1",
+    "husky": "^7.0.2",
     "jest": "^27.0.6",
     "jest-environment-jsdom": "^27.0.6",
     "postcss": "^8.3.5",
